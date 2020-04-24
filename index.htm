@@ -200,9 +200,8 @@
             }
 
             playVideo(document.getElementById("video_B3F568FF_AC15_C031_41E1_207F2120C3F9"));
-document.body.addEventListener("click", onBodyClick);
-document.body.addEventListener("touchend", onBodyClick);
-showPreloader()
+showPreloader();
+loadTour()
         }
 
         function playVideo(video) {
@@ -260,7 +259,7 @@ showPreloader()
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body onload="onLoad()">
-    <div id="preloadContainer" style="background-color:rgba(255,255,255,1)"><div style="z-index: 4; position: absolute; display: flex; align-items: center; text-align: center; overflow: hidden; background-color: #FFFFFF; left: 0%; top: 0%; width: 100.00%; height: 100.00%"><video id="video_B3F568FF_AC15_C031_41E1_207F2120C3F9" width="100%" height="100%" onended="onBodyClick()" autoplay playsinline webkit-playsinline poster="media/video_B3F568FF_AC15_C031_41E1_207F2120C3F9_poster.jpg" preload="auto"><source src="media/video_B3F568FF_AC15_C031_41E1_207F2120C3F9.mp4" type="video/mp4">Your browser does not support the video tab</video></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_B0B98A2C_AC77_C3D7_41E0_D3945913B0FD.gif'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 30.166051660516608%; bottom: 4.833624052789797e-15%; width: 39.11%; height: 21.94%"></div><div style="z-index: 6; position: absolute; right: 28.413284132841326%; bottom: 19.557823129251712%; width: 42.44%; height: 8.51%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#666666;font-size:22px;font-family:'Consolas';"><B>Loading ENSAJ Virtual Tour</B></SPAN><SPAN STYLE="color:#9999ff;font-size:22px;font-family:'Consolas';"><B> </B></SPAN></SPAN></DIV></div></div></div>
+    <div id="preloadContainer" style="background-color:rgba(255,255,255,1)"><div style="z-index: 4; position: absolute; display: flex; align-items: center; text-align: center; overflow: hidden; background-color: #FFFFFF; left: 0%; top: 0%; width: 100.00%; height: 100.00%"><video id="video_B3F568FF_AC15_C031_41E1_207F2120C3F9" width="100%" height="100%" loop autoplay playsinline webkit-playsinline poster="media/video_B3F568FF_AC15_C031_41E1_207F2120C3F9_poster.jpg" preload="auto"><source src="media/video_B3F568FF_AC15_C031_41E1_207F2120C3F9.mp4" type="video/mp4">Your browser does not support the video tab</video></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_B0B98A2C_AC77_C3D7_41E0_D3945913B0FD.gif'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 30.17%; bottom: 0%; width: 39.11%; height: 21.94%"></div><div style="z-index: 6; position: absolute; right: 28.41%; bottom: 19.56%; width: 42.44%; height: 8.51%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#666666;font-size:22px;font-family:'Consolas';"><B>Loading ENSAJ Virtual Tour</B></SPAN><SPAN STYLE="color:#9999ff;font-size:22px;font-family:'Consolas';"><B> </B></SPAN></SPAN></DIV></div></div></div>
     <div id="viewer"></div>
 </body>
 </html>
