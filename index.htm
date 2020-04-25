@@ -39,7 +39,7 @@
             };
 
             var settings = new TDV.PlayerSettings();
-            settings.set(TDV.PlayerSettings.ACTIVE_VIDEO_ELEMENT, document.getElementById("video_B3F568FF_AC15_C031_41E1_207F2120C3F9"));
+            settings.set(TDV.PlayerSettings.ACTIVE_VIDEO_ELEMENT, document.getElementById("video_BD3727AA_B131_7205_41B4_A07A6A060125"));
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
             settings.set(TDV.PlayerSettings.SCRIPT_URL, 'script.js');
             settings.set(TDV.PlayerSettings.FLASH_EXPRESS_INSTALLER_URL, 'lib/ExpressInstall.swf');
@@ -145,7 +145,7 @@
             var transitionEnd = transitionEndEventName();
             var preloadContainer = document.getElementById('preloadContainer');
 
-            document.getElementById("video_B3F568FF_AC15_C031_41E1_207F2120C3F9").pause();
+            document.getElementById("video_BD3727AA_B131_7205_41B4_A07A6A060125").pause();
 
             var transitionEndName = transitionEndEventName();
             if(transitionEndName)
@@ -199,7 +199,7 @@
                 return;
             }
 
-            playVideo(document.getElementById("video_B3F568FF_AC15_C031_41E1_207F2120C3F9"));
+            playVideo(document.getElementById("video_BD3727AA_B131_7205_41B4_A07A6A060125"));
 showPreloader();
 loadTour()
         }
@@ -256,10 +256,10 @@ loadTour()
         #viewer { background-color: #FFFFFF; z-index:1; position:absolute; width: 100%; height: 100%; top: 0; }
         #preloadContainer { z-index:2; position:relative; width:100%; height:100%; transition: opacity 1s; -webkit-transition: opacity 1s; -moz-transition: opacity 1s; -o-transition: opacity 1s;}
     </style>
-    <link rel="stylesheet" href="fonts.css">
+    
 </head>
 <body onload="onLoad()">
-    <div id="preloadContainer" style="background-color:rgba(255,255,255,1)"><div style="z-index: 4; position: absolute; display: flex; align-items: center; text-align: center; overflow: hidden; background-color: #FFFFFF; left: 0%; top: 0%; width: 100.00%; height: 100.00%"><video id="video_B3F568FF_AC15_C031_41E1_207F2120C3F9" width="100%" height="100%" loop autoplay playsinline webkit-playsinline poster="media/video_B3F568FF_AC15_C031_41E1_207F2120C3F9_poster.jpg" preload="auto"><source src="media/video_B3F568FF_AC15_C031_41E1_207F2120C3F9.mp4" type="video/mp4">Your browser does not support the video tab</video></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_B0B98A2C_AC77_C3D7_41E0_D3945913B0FD.gif'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 30.17%; bottom: 0%; width: 39.11%; height: 21.94%"></div><div style="z-index: 6; position: absolute; right: 28.41%; bottom: 19.56%; width: 42.44%; height: 8.51%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#666666;font-size:22px;font-family:'Consolas';"><B>Loading ENSAJ Virtual Tour</B></SPAN><SPAN STYLE="color:#9999ff;font-size:22px;font-family:'Consolas';"><B> </B></SPAN></SPAN></DIV></div></div></div>
+    <div id="preloadContainer" style="background-color:rgba(255,255,255,1)"><div style="z-index: 4; position: absolute; display: flex; align-items: center; text-align: center; overflow: hidden; background-color: #FFFFFF; left: 0%; top: 0%; width: 100.00%; height: 100.00%"><video id="video_BD3727AA_B131_7205_41B4_A07A6A060125" width="100%" height="100%" loop autoplay playsinline webkit-playsinline poster="media/video_BD3727AA_B131_7205_41B4_A07A6A060125_poster.jpg" preload="auto"><source src="media/video_BD3727AA_B131_7205_41B4_A07A6A060125.mp4" type="video/mp4">Your browser does not support the video tab</video></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_BD9CCB06_B10F_F20D_41C8_5C56933D2FFF.gif'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 30.1660516605166%; bottom: 5.612244897959188%; width: 37.27%; height: 18.37%"></div><div style="z-index: 6; position: absolute; left: 39.178966789667896%; bottom: 6.042030065987246e-16%; width: 30.63%; height: 6.97%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;"><SPAN STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#666666;font-size:20px;font-family:'Courier New TUR';"><B>Loading ENSAJ Virtual Tour</B></SPAN></SPAN></DIV></div></div></div>
     <div id="viewer"></div>
 </body>
 </html>
